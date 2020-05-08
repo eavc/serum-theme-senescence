@@ -20,5 +20,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-serum_theme_essence-*.tar
+serum_theme_senescence-*.tar
 
+# Ignore vscode-elixir-ls folder
+/.elixir_ls

@@ -1,4 +1,4 @@
-defmodule Serum.Themes.Essence.Pagination do
+defmodule Serum.Themes.Senescence.Pagination do
   @moduledoc false
 
   @spec page_link(binary(), integer()) :: binary()

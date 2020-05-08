@@ -1,10 +1,10 @@
-defmodule Serum.Themes.Essence.MixProject do
+defmodule Serum.Themes.Senescence.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :serum_theme_essence,
-      version: "1.1.0",
+      app: :serum_theme_senescence,
+      version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -26,12 +26,12 @@ defmodule Serum.Themes.Essence.MixProject do
 
   defp package do
     [
-      name: "serum_theme_essence",
-      description: "Essence is a Serum theme which presents a minimal and clean look.",
-      maintainers: ["Eunbin Jeong"],
+      name: "serum_theme_senescence",
+      description: "Senescence is a Serum theme which presents a minimal and clean look; based on Eunbin Jeong's theme Senescence",
+      maintainers: ["eavc"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/Dalgona/serum-theme-essence"
+        "GitHub" => "https://github.com/eavc/serum-theme-senescence"
       }
     ]
   end

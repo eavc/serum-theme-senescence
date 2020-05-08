@@ -1,5 +1,5 @@
 <%
-alias Serum.Themes.Essence.Pagination, as: P
+alias Serum.Themes.Senescence.Pagination, as: P
 
 current = @page.current_page
 last = @page.max_page

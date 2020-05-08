@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :serum_theme_essence, key: :value
+#     config :serum_theme_senescence, key: :value
 #
 # and access this configuration in your application as:
 #
-#     Application.get_env(:serum_theme_essence, :key)
+#     Application.get_env(:serum_theme_senescence, :key)
 #
 # You can also configure a 3rd-party app:
 #

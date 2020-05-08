@@ -1,13 +1,13 @@
-defmodule Serum.Themes.Essence do
+defmodule Serum.Themes.Senescence do
   @behaviour Serum.Theme
 
-  @priv_dir :code.priv_dir(:serum_theme_essence)
+  @priv_dir :code.priv_dir(:serum_theme_senescence)
   @theme_version Mix.Project.config[:version]
 
-  def name, do: "Essence"
+  def name, do: "Senescence"
 
   def description do
-    "Essence is a Serum theme which presents a minimal and clean look."
+    "Senescence is a Serum theme which presents a minimal and clean look."
   end
 
   def author, do: "Eunbin Jeong (Dalgona.) <dalgona@hontou.moe>"

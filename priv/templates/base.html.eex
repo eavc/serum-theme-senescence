@@ -19,7 +19,7 @@
         <%= include "footer" %>
         <p>
           Powered by <a href="https://github.com/Dalgona/Serum">Serum</a> v<%= Application.spec(:serum, :vsn) %>,
-          with <a href="https://github.com/Dalgona/serum-theme-essence">Essence</a> theme
+          with <a href="https://github.com/eavc/serum-theme-senescence">Senescence</a> theme
         </p>
       </footer>
     </div>
