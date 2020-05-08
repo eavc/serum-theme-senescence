@@ -7,10 +7,10 @@ defmodule Serum.Themes.Senescence do
   def name, do: "Senescence"
 
   def description do
-    "Senescence is a Serum theme which presents a minimal and clean look."
+    "Senescence is a Serum theme which presents a minimal and clean look; based on Dalgona's Essence theme."
   end
 
-  def author, do: "Eunbin Jeong (Dalgona.) <dalgona@hontou.moe>"
+  def author, do: "eavc"
   def legal, do: "MIT License. See LICENSE for the full text."
   def version, do: @theme_version
   def serum, do: "~> 1.0"
